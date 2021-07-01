@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="dev.hanashi.wsc.multifactor-trophy" xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/2019/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Multifactor Trophy]]></packagename>
+		<packagename language="de"><![CDATA[Multifaktor-Trophäe]]></packagename>
+		<packagedescription><![CDATA[Trophy for Multifactor.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Trophäe für Multifaktor.]]></packagedescription>
+		<version>1.0.0</version>
+		<date>2021-07-01</date>
+	</packageinformation>
+
+	<authorinformation>
+		<author><![CDATA[Hanashi Development]]></author>
+		<authorurl><![CDATA[https://hanashi.dev/]]></authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="5.4.0 Alpha 1">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+
+	<excludedpackages>
+		<excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+
+	<instructions type="install">
+		<!-- config -->
+		<instruction type="objectType" />
+	</instructions>
+</package>
