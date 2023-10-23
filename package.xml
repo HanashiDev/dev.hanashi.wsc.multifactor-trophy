@@ -6,23 +6,23 @@
 		<packagename language="de">Multifaktor-Trophäe</packagename>
 		<packagedescription>Trophy for Multifactor.</packagedescription>
 		<packagedescription language="de">Trophäe für Multifaktor.</packagedescription>
-		<version>1.0.1</version>
-		<date>2022-10-11</date>
+		<version>1.1.0</version>
+		<date>2023-10-23</date>
 	</packageinformation>
 	<authorinformation>
 		<author>Hanashi Development</author>
 		<authorurl>https://hanashi.dev/</authorurl>
 	</authorinformation>
 	<requiredpackages>
-		<requiredpackage minversion="5.4.0 Alpha 1">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="5.5.18 Alpha 1">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	<excludedpackages>
-		<excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="7.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
 	<instructions type="install">
 		<instruction type="objectType"/>
 	</instructions>
-	<instructions type="update" fromversion="1.0.0">
+	<instructions type="update" fromversion="1.0.*">
 		<instruction type="objectType"/>
 	</instructions>
 </package>
